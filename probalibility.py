@@ -1,8 +1,8 @@
-balls = ["Red", "Blue", "Green", "Red", "Blue"]
-total_balls = len(balls)
-red_balls = balls.count("Red")
+import random
 
-print("Total Balls:", total_balls)
-print("Red Balls:", red_balls)
+balls = ["Red", "Blue", "Green", "Yellow", "Orange"]
+print("All of the balls: ", balls)
 
-print("\nProbability of picking a Red ball = {}/{}".format(red_balls, total_balls))
+picked = random.choice(balls)
+print("Picked ball color is : ", picked)
+
